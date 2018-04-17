@@ -1,0 +1,62 @@
+.pincard {
+	background-color: #3a3a3a;
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.pin-screen {
+	background-color: #b5b5b5;
+	padding: 25px;	/*height: 10px;*/
+	font-size: 40px;
+	color: #fff;
+	box-shadow: 0px 0px 10px #444 inset;
+	font-weight: 300;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	/*text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);*/
+}
+
+.pin-ul {
+	padding: 0;
+}
+
+.pin-button-list {
+	list-style: none;
+	display: inline-block;
+}
+
+.pin-button {
+	background-color: #3a3a3a;
+	color: #212121;
+	width: 100px;
+	margin: 0px;
+	padding: 20px;
+	cursor: pointer;
+	font-size: 2rem;
+	color: #fff;
+	transition: all 0.4s ease;
+	font-weight: 300;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.disabled {
+	opacity: .2;
+	cursor: auto;
+	pointer-events: none;
+}
+
+.pin-button:hover {
+	background-color: #3f3f3f;
+}
+
+.pin-button:active {
+	box-shadow: 0px 0px 10px #000 inset;
+}
